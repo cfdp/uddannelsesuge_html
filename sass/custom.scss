@@ -1,0 +1,124 @@
+@import "../foundation/scss/foundation";
+
+// Universal //
+///////////////
+
+html, body {
+  height: 100%; } // fix for sticky footer
+
+.clearfix {
+  @include clearfix; }
+
+.one-space-after:after {
+  content: "";
+  display: block;
+  margin-bottom: 1em; }
+
+.one-space-before:before {
+  content: "";
+  display: block;
+  margin-top: 1em; }
+
+// Top bar
+.spacer-navbar {
+  margin-top: 30px; }
+
+// page-content
+.page-content section {
+  padding: 1em 0; }
+
+.lite-info dl dt {
+  float: left;
+  padding-right: 1em;
+  color: #aaa;
+  font-weight: 600;
+  min-width: 95px;
+}
+
+.lite-info.panel {
+  h4 a {
+    color: #000;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  dl dd:last-child {
+    margin-bottom: 0;
+  }
+}
+
+// Google map sizing
+#gmap {
+  width: 100%;
+  height: 200px;
+}
+
+// rounded images
+.rounded-333 {
+  border-radius: 333px
+}
+
+// Sticky footer - css-tricks.com/snippets/css/sticky-footer
+.page-wrap {
+  min-height: 100%;
+  margin-bottom: -50px; }
+
+.page-wrap:after {
+  content: "";
+  display: block; }
+
+.page-wrap:after {
+  height: 50px;
+}
+
+.site-footer {
+  height: 49px;
+  background: #ddd;
+  border-top: 1px solid #ccc;
+
+  p {
+    text-align: center;
+    position: relative;
+    top: 17px;
+    font-size: em-calc(11);
+    color: #666;
+    text-transform: uppercase
+  }
+
+  a {
+    color: #888;
+    &:hover {
+      text-decoration: underline;
+      color: #222;
+    }
+  }
+}
+
+// Page / Module specific //
+////////////////////////////
+
+// Module: Tip en 13'er advert
+.m_tip13-ad {
+  img {
+    margin-right: 1em;
+
+    @media screen and (max-width: 560px) {
+      display: block;
+      margin: 0 auto; }
+
+    @media screen and (min-width: 560px) {
+      float: left;
+    }
+  }
+
+  .info {
+    margin-top: 2.5em;
+  }
+}
+
+//about
+.page-about .lite-info dl dt{
+  min-width: 85px;
+}

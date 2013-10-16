@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <title>Forside | Uddannelsesuge i Aalborg</title>
+
+  <meta name="viewport" content="width=device-width">
+  <link href='http://fonts.googleapis.com/css?family=Raleway:300,600,800' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="foundation/css/normalize.css">
+  <link rel="stylesheet" href="css/custom.css">
+  <script src="foundation/js/vendor/custom.modernizr.js"></script>
+</head>
+<body>
+  <div class="page-wrap">
+    <div class="contain-to-grid">
+      <nav class="top-bar">
+        <ul class="title-area">
+          <!-- Title Area -->
+          <li class="name">
+            <h1><a href="/">Uddannelsesuge.dk</a></h1>
+          </li>
+
+          <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+        </ul>
+
+        <section class="top-bar-section">
+          <!-- Right Nav Section -->
+          <ul class="right">
+            <li class="active"><a href="events.html">Arrangementer</a></li>
+            <li><a href="places.html">Steder</a></li>
+            <li><a href="classes.html">Skoleklasser</a></li>
+            <li><a href="about.html">Om uddannelsesugen</a></li>
+          </ul>
+        </section>
+      </nav>
+    </div>
+    <!-- .contain-to-grid --><div class="container">
+  <section class="hero">
+    <img src="http://placekitten.com/1880/360" alt="Kittens">
+  </section>
+  <div class="row">
+
+  </div>
+</div>
+
+
+  </div>
+  <!-- .page-wrap -->
+  <footer class="site-footer container">
+    <div class="row">
+      <div class="column">
+        <p class="show-for-medium-up">
+          &copy; <a href="http://uu-aalborg.com">Ungdommens&nbsp;Uddannelsesvejledning&nbsp;Aalborg</a> &nbsp; &middot; &nbsp; Designet af <a href="http://cfdp.dk">Center for Digital Pædagogik</a>
+        </p>
+        <p class="show-for-small">
+          &copy; <a href="http://uu-aalborg.com">UU&nbsp;Aalborg</a> &nbsp; &middot; &nbsp; Designet af <a href="http://cfdp.dk">CfDP</a>
+        </p>
+      </div>
+    </div>
+
+  </footer>
+
+  <script>
+  // document.write('<script src=' +
+  // ('__proto__' in {} ? 'foundation/js/vendor/zepto' : 'foundation/js/vendor/jquery') +
+  // '.js><\/script>')
+  </script>
+
+  <script src="foundation/js/vendor/jquery.js"></script>
+
+  <script src="foundation/js/foundation/foundation.js"></script>
+
+  <script src="foundation/js/foundation/foundation.abide.js"></script>
+
+  <script src="foundation/js/foundation/foundation.alerts.js"></script>
+
+  <script src="foundation/js/foundation/foundation.clearing.js"></script>
+
+  <script src="foundation/js/foundation/foundation.cookie.js"></script>
+
+  <script src="foundation/js/foundation/foundation.dropdown.js"></script>
+
+  <script src="foundation/js/foundation/foundation.forms.js"></script>
+
+  <script src="foundation/js/foundation/foundation.interchange.js"></script>
+
+  <script src="foundation/js/foundation/foundation.joyride.js"></script>
+
+  <script src="foundation/js/foundation/foundation.magellan.js"></script>
+
+  <script src="foundation/js/foundation/foundation.orbit.js"></script>
+
+  <script src="foundation/js/foundation/foundation.placeholder.js"></script>
+
+  <script src="foundation/js/foundation/foundation.reveal.js"></script>
+
+  <script src="foundation/js/foundation/foundation.section.js"></script>
+
+  <script src="foundation/js/foundation/foundation.tooltips.js"></script>
+
+  <script src="foundation/js/foundation/foundation.topbar.js"></script>
+
+
+  <script>
+    $(document).foundation();
+  </script>
+
+  <script type="text/javascript" src="js/jquery.geocode.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function($){
+      //var adr = "skovbyparken 46, galten";
+      var adr = $('#place-address').data('address');
+      $('#gmap').geocode({address:adr});
+      return false;
+    });
+  </script>
+
+</body>
+</html>
