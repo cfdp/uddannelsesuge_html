@@ -5832,35 +5832,39 @@ html, body {
 .lite-info.panel dl dd:last-child {
   margin-bottom: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lajlev\/web\/uddannelsesuge_html\/sass\/custom\.scss}line{font-family:\0000353}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lajlev\/web\/uddannelsesuge_html\/sass\/custom\.scss}line{font-family:\0000352}}
+section.hero {
+  text-align: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lajlev\/web\/uddannelsesuge_html\/sass\/custom\.scss}line{font-family:\0000357}}
 #gmap {
   width: 100%;
   height: 200px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lajlev\/web\/uddannelsesuge_html\/sass\/custom\.scss}line{font-family:\0000359}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lajlev\/web\/uddannelsesuge_html\/sass\/custom\.scss}line{font-family:\0000363}}
 .rounded-333 {
   border-radius: 333px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lajlev\/web\/uddannelsesuge_html\/sass\/custom\.scss}line{font-family:\0000364}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lajlev\/web\/uddannelsesuge_html\/sass\/custom\.scss}line{font-family:\0000368}}
 .page-wrap {
   min-height: 100%;
   margin-bottom: -50px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lajlev\/web\/uddannelsesuge_html\/sass\/custom\.scss}line{font-family:\0000368}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lajlev\/web\/uddannelsesuge_html\/sass\/custom\.scss}line{font-family:\0000372}}
 .page-wrap:after {
   content: "";
   display: block; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lajlev\/web\/uddannelsesuge_html\/sass\/custom\.scss}line{font-family:\0000372}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lajlev\/web\/uddannelsesuge_html\/sass\/custom\.scss}line{font-family:\0000376}}
 .page-wrap:after {
   height: 50px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lajlev\/web\/uddannelsesuge_html\/sass\/custom\.scss}line{font-family:\0000376}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lajlev\/web\/uddannelsesuge_html\/sass\/custom\.scss}line{font-family:\0000380}}
 .site-footer {
   height: 49px;
   background: #ddd;
   border-top: 1px solid #ccc; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lajlev\/web\/uddannelsesuge_html\/sass\/custom\.scss}line{font-family:\0000381}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lajlev\/web\/uddannelsesuge_html\/sass\/custom\.scss}line{font-family:\0000385}}
   .site-footer p {
     text-align: center;
     position: relative;
@@ -5868,30 +5872,30 @@ html, body {
     font-size: 0.6875em;
     color: #666;
     text-transform: uppercase; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lajlev\/web\/uddannelsesuge_html\/sass\/custom\.scss}line{font-family:\0000390}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lajlev\/web\/uddannelsesuge_html\/sass\/custom\.scss}line{font-family:\0000394}}
   .site-footer a {
     color: #888; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lajlev\/web\/uddannelsesuge_html\/sass\/custom\.scss}line{font-family:\0000392}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lajlev\/web\/uddannelsesuge_html\/sass\/custom\.scss}line{font-family:\0000396}}
     .site-footer a:hover {
       text-decoration: underline;
       color: #222; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lajlev\/web\/uddannelsesuge_html\/sass\/custom\.scss}line{font-family:\00003104}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lajlev\/web\/uddannelsesuge_html\/sass\/custom\.scss}line{font-family:\00003108}}
 .m_tip13-ad img {
   margin-right: 1em; }
   @media screen and (max-width: 560px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lajlev\/web\/uddannelsesuge_html\/sass\/custom\.scss}line{font-family:\00003104}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lajlev\/web\/uddannelsesuge_html\/sass\/custom\.scss}line{font-family:\00003108}}
     .m_tip13-ad img {
       display: block;
       margin: 0 auto; } }
   @media screen and (min-width: 560px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lajlev\/web\/uddannelsesuge_html\/sass\/custom\.scss}line{font-family:\00003104}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lajlev\/web\/uddannelsesuge_html\/sass\/custom\.scss}line{font-family:\00003108}}
     .m_tip13-ad img {
       float: left; } }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lajlev\/web\/uddannelsesuge_html\/sass\/custom\.scss}line{font-family:\00003116}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lajlev\/web\/uddannelsesuge_html\/sass\/custom\.scss}line{font-family:\00003120}}
 .m_tip13-ad .info {
   margin-top: 2.5em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lajlev\/web\/uddannelsesuge_html\/sass\/custom\.scss}line{font-family:\00003122}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lajlev\/web\/uddannelsesuge_html\/sass\/custom\.scss}line{font-family:\00003126}}
 .page-about .lite-info dl dt {
   min-width: 85px; }
